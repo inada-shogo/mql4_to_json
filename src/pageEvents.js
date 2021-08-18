@@ -21,7 +21,6 @@
                             resolve();
                         }
                     });
-                    console.log("test");
                     resolve();
                 })
             };
