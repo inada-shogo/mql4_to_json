@@ -42,7 +42,7 @@ const setEntry = (entry) => {
             const btnBuyNow = document.getElementById("invest_now_button");
             btnBuyNow.click();
             json.entry = entry;
-            resolve();
+            setTimeout(resolve, 1000);
         }
     });
 };
