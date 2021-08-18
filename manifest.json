@@ -1,0 +1,22 @@
+{
+  "name": "Auto Entry",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "Highlow Auto Entry",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.highlow.com/"
+      ],
+      "js": [
+        "src/index.js",
+        "src/interface.js",
+        "src/jsonParsePage.js",
+        "src/pageEvents.js"
+      ]
+    }
+  ],
+  "web_accessible_resources": [
+    "*"
+  ]
+}
